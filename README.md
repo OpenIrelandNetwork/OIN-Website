@@ -1,4 +1,4 @@
-# CURIOSS Website
+# Open Ireland Network Website
 
 This repo is powering the Cpen Ireland Website at [XXX](https://XXXX/).
 
