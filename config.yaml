@@ -1,4 +1,4 @@
-baseURL: 'https://openirelandnetwork.com/'
+baseURL: 'https://openirelandnetwork.github.io/'
 title: Open Ireland Network
 buildFuture: true
 summaryLength: 10
