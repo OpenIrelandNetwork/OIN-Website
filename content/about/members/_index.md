@@ -5,7 +5,8 @@ subtitle: "Subtitle goes here."
 ---
   <div class="container">
     <div class="row justify-content-center">
-      {{< company name="Organisation Name" image="/images/about/logos/" url="Link"/>}}
-      {{< /company >}}
+     {{% company url="https://example.com" image="/path/to/logo.png" name="Company Name" %}}
+Your inner text or quote here.
+{{% /company %}}
     </div>
   </div>
