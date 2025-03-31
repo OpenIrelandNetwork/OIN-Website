@@ -1,0 +1,20 @@
+description:
+  enable: false
+  subtitle: "Here are some useful links and information that will help you get started. "
+
+############################### services ####################################
+services:
+  # service item
+  - title: "About Open Ireland Network"
+    icon: "ti-comments" # themify icon pack https://themify.me/themify-icons
+    content: "Find out more about CURIOSS, the organizing and membership [here](/about/)."
+
+  # service item
+  - title: "Members"
+    icon: "ti-announcement" # themify icon pack https://themify.me/themify-icons
+    content: "Find out about who is part of the Open Ireland Network on our [Members page](/about/members/)."
+
+  # service item
+  - title: "Contact Open Ireland Network"
+    icon: "ti-email" # themify icon pack https://themify.me/themify-icons
+    content: "We always love hearing from people working in or with academic OSPOs. Check out [our contact page](/about/contact/)."

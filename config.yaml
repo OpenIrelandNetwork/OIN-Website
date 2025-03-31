@@ -1,0 +1,140 @@
+baseURL: 'https://openirelandnetwork.com/'
+title: Open Ireland Network
+buildFuture: true
+summaryLength: 10
+preserveTaxonomyNames: true
+
+pluralizeListTitles: false
+menu:
+  main:
+    - name: News
+      URL: news
+      weight: 1
+    - name: Resources
+      URL: resources
+      weight: 2
+    - name: About
+      hasChildren: true
+      identifier: about
+      weight: 3
+    - name: About OPEN IRELAND NETWORK
+      URL: about
+      parent: about
+      weight: 1
+    - name: Members
+      URL: about/members
+      parent: about
+      weight: 2
+    - name: Code of Conduct
+      URL: about/codeofconduct
+      parent: about
+      weight: 3
+    - name: Contact
+      URL: about/contact
+      parent: about
+      weight: 4
+   
+  footer_left:
+    - name: Home
+      weight: 1
+      post: bold
+  footer_middle:
+    - name: News
+      URL: news
+      weight: 1
+      post: bold
+      pre: _blank
+      post: bold
+    - name: Resources
+      URL: resources
+      weight: 2
+      post: bold
+  footer_right:
+    - name: About
+      URL: about
+      weight: 1
+      post: bold
+    - name: About CURIOSS
+      URL: about
+      weight: 2
+    - name: Members
+      URL: about/members
+      weight: 3
+    - name: Code of Conduct
+      URL: about/codeofconduct
+      weight: 4
+    - name: Contact
+      URL: about/contact
+      weight: 5
+languages:
+  en:
+    languageName: English
+    weight: 1
+  de:
+    languageName: Deutsch
+    weight: 2
+  ja:
+    languageName: 日本語
+    weight: 2
+  zh:
+    languageName: 中文
+    weight: 2
+  it:
+    languageName: Italiano
+    weight: 2
+  es:
+    languageName:  Español
+    weight: 2
+  ru:
+    languageName: Русский
+    weight: 2
+  fr:
+    languageName: Français
+    weight: 2
+pagination:
+  pagerSize: '3'
+summaryLength: '15'
+disqusShortname: ''
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+minify:
+  disableHTML: true
+params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/slick/slick.css
+      - link: plugins/youmax/youmax.css
+      - link: plugins/bootstrap-select/css/bootstrap-select.min.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/youmax/youmax.js
+      - link: plugins/bootstrap-select/js/bootstrap-select.min.js
+  logo: images/color_horizontal_logotype1.svg
+  home: "Home"
+  logo_width: 200px
+  themeVariant: quizdown
+  description: Open Ireland Network is a Blah Blah. Our goals are to facilitate the networking and collaboration between XYZ
+  author: Open Ireland Network
+  defaultImage: images/curioss.png
+  footer_content: >-
+    The site is licensed under a CC BY license unless otherwise marked.
+  copyright: >-
+    Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
+    icons by [Freepik Storyset](https://storyset.com/people)
+  preloader:
+    enable: false
+    preloader: ''
+  navigation_button:
+    enable: true
+    label: Join Slack
+    link: slack
+taxonomies:
+  tag: "tags"
+  category: "categories"
