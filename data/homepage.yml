@@ -7,7 +7,8 @@ banner:
 home:
   enable : true
   title : "Who are Open Ireland Network?"
-  subtitle : "Enabling Open Source & Open Source AI Across Ireland**." 
+  subtitle : "Enabling Open Source & Open Source AI Across Ireland."
+  subtitle_style: "font-size: 24px;" # Add this line if supported by your system
   content: "To support the Ireland ecosystem in open innovation by enabling sustainable adoption, contribution, and governance of open source and open source AI across government, academia, and industry."
   header: "We do this in a number of ways, including:"
   bullet_point: "<ul>
