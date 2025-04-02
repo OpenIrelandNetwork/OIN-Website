@@ -4,31 +4,43 @@ banner:
   title : "Welcome to Open Ireland Network"
 
 ########################### home ##################################
-home:
-  enable: true
-  title: "The Open Ireland Network"
-  subtitle: "Enables Open Source & Open Source AI across Ireland."
-  subtitle_style: "font-size: 24px;"
-  content: >
-    We support the Irish open source ecosystem by enabling the sustainable adoption, contribution,
-    and governance of open source and open source AI across government, academia, and industry.
-  content: |
-    <section>
-      <h2>We help empower the people in open source</h2>
-      <p>
-        We enable teams across Ireland’s open source ecosystem to thrive by acting as an enabling team.
-        Our work supports those adopting and using open source by building confidence, sharing expertise,
-        and helping teams grow stronger together.
-      </p>
-      <p>Here's how we do it:</p>
-      <ul>
-        <li>Coaching and mentoring teams to adopt open source and the very latest in emerging practices, tools, and governance models.</li>
-        <li>Supporting team learning with tailored workshops and peer exchanges based on real-world use.</li>
-        <li>Facilitating cross-sector collaboration between government, academia, community, and industry.</li>
-        <li>Advocating for ethical AI and policy to ensure open technologies serve the public good.</li>
-        <li>Partnering with local and global organisations to amplify our shared impact.</li>
-      </ul>
-    </section>
+content: |
+  <section style="text-align: left; max-width: 800px; margin: 0 auto; padding: 2rem;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: #0072CE;">
+      <i class="fas fa-network-wired" style="color: #0072CE; margin-right: 0.5rem;"></i> The Open Ireland Network
+    </h1>
+    <h2 style="margin-top: 0.2rem; color: #333;">Enabling Open Source & Open Source AI across Ireland</h2>
+
+    <p style="font-size: 1.1rem; margin-top: 1.5rem; color: #444;">
+      We empower the people and teams driving Ireland’s open source movement.
+      Through expert support, collaboration, and advocacy, we help organisations confidently adopt
+      open source and open source AI—building a stronger, more connected ecosystem.
+    </p>
+
+    <h3 style="margin-top: 2rem; color: #0072CE;">How we make it happen:</h3>
+    <ul style="list-style: none; padding-left: 0; font-size: 1rem; color: #444;">
+      <li style="margin-bottom: 1rem;">
+        <i class="fas fa-chalkboard-teacher" style="color: #0072CE; margin-right: 0.5rem;"></i>
+        <strong>Coaching and mentoring</strong> to embed open source tools, practices, and governance models.
+      </li>
+      <li style="margin-bottom: 1rem;">
+        <i class="fas fa-lightbulb" style="color: #0072CE; margin-right: 0.5rem;"></i>
+        <strong>Tailored learning experiences</strong> through workshops and peer exchanges grounded in real-world use.
+      </li>
+      <li style="margin-bottom: 1rem;">
+        <i class="fas fa-handshake" style="color: #0072CE; margin-right: 0.5rem;"></i>
+        <strong>Cross-sector collaboration</strong> between government, academia, industry, and community.
+      </li>
+      <li style="margin-bottom: 1rem;">
+        <i class="fas fa-balance-scale" style="color: #0072CE; margin-right: 0.5rem;"></i>
+        <strong>Ethical AI and policy advocacy</strong> to ensure open technologies serve the public good.
+      </li>
+      <li style="margin-bottom: 1rem;">
+        <i class="fas fa-globe" style="color: #0072CE; margin-right: 0.5rem;"></i>
+        <strong>Partnerships</strong> with local and global organisations to scale our collective impact.
+      </li>
+    </ul>
+  </section>
 
 
 
