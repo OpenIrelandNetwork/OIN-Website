@@ -7,15 +7,15 @@ banner:
 home:
   enable : true
   title : "Who are Open Ireland Network?"
-  subtitle : "**CURIOSS** is a **C**ommunity for  **U**niversity and **R**esearch **I**nstitution **OS**PO**s**." 
-  content: "Our goals are to provide support and to build the collective capacity of members who are creating, managing and sustaining Open Source Program Offices in universities and research institutions around the world."
+  subtitle : "Enabling Open Source & Open Source AI Across Ireland**." 
+  content: "To support the Ireland ecosystem in open innovation by enabling sustainable adoption, contribution, and governance of open source and open source AI across government, academia, and industry."
   header: "We do this in a number of ways, including:"
   bullet_point: "<ul>
-      <li>Creating dedicated spaces for sharing learning and good practices.</li>
+      <li>Enable teams through coaching and support adopting and use of open source with best and emerging practices.</li>
       <li>Creating shared resources.</li>
-      <li>Facilitating networking and collaboration.</li>
-      <li>Partnering with other organizations to amplify impact.</li>
-      <li>Promoting awareness of academic OSPOs and their learning within the wider academic and OSS ecosystems.</li>
+      <li>Facilitating networking and collaboration between the Local and International eycosystem.</li>
+      <li>Advocate for Policy and Ethical AI.</li>
+      <li>Partnering with other organisations to amplify impaect.</li>
       </ul>"
 
 
