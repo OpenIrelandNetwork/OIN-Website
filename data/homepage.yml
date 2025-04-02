@@ -6,21 +6,30 @@ banner:
 ########################### home ##################################
 home:
   enable: true
-  title: "Who are Open Ireland Network?"
-  subtitle: "Enabling Open Source & Open Source AI Across Ireland."
+  title: "The Open Ireland Network"
+  subtitle: "Enables Open Source & Open Source AI across Ireland."
   subtitle_style: "font-size: 24px;"
   content: >
-    To support the Irish ecosystem in open innovation by enabling the sustainable adoption, contribution,
+    We support the Irish open source ecosystem by enabling the sustainable adoption, contribution,
     and governance of open source and open source AI across government, academia, and industry.
-  header: "We do this in a number of ways, including:"
-  bullet_html: |
-    <ul>
-      <li>Enabling teams through coaching and support for adopting and using open source with best and emerging practices.</li>
-      <li>Creating and sharing reusable resources.</li>
-      <li>Facilitating networking and collaboration across the local and international ecosystem.</li>
-      <li>Advocating for policy and ethical AI.</li>
-      <li>Partnering with other organisations to amplify impact.</li>
-    </ul>
+  content: |
+    <section>
+      <h2>We help empower the people in open source</h2>
+      <p>
+        We enable teams across Ireland’s open source ecosystem to thrive by acting as an enabling team.
+        Our work supports those adopting and using open source by building confidence, sharing expertise,
+        and helping teams grow stronger together.
+      </p>
+      <p>Here's how we do it:</p>
+      <ul>
+        <li>Coaching and mentoring teams to adopt open source and the very latest in emerging practices, tools, and governance models.</li>
+        <li>Supporting team learning with tailored workshops and peer exchanges based on real-world use.</li>
+        <li>Facilitating cross-sector collaboration between government, academia, community, and industry.</li>
+        <li>Advocating for ethical AI and policy to ensure open technologies serve the public good.</li>
+        <li>Partnering with local and global organisations to amplify our shared impact.</li>
+      </ul>
+    </section>
+
 
 
 
