@@ -1,52 +1,47 @@
 ############################## Banner ###################################
 banner:
-  bgImage : "/images/banner/banner2.jpg"
-  title : "Welcome to Open Ireland Network"
+  bgImage: "/images/banner/banner2.jpg"
+  title: "Welcome to Open Ireland Network"
 
 ########################### home ##################################
 home:
-  enable : true
-  title : "The Open Ireland Network?"
-  subtitle : We empower the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt  open source and open source AI—building a stronger, more connected ecosystem.
- 
- ### How we make it happen:
+  enable: true
+  title: "The Open Ireland Network?"
+  subtitle: "We empower the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt open source and open source AI—building a stronger, more connected ecosystem."
 
-  - 👨‍🏫 **Coaching and mentoring** to embed open source tools, practices, and governance models.
-  - 💡 **Tailored learning experiences** through workshops and peer exchanges grounded in real-world use.
-  - 🤝 **Cross-sector collaboration** between government, academia, industry, and community.
-  - ⚖️ **Ethical AI and policy advocacy** to ensure open technologies serve the public good.
-  - 🌍 **Partnerships** with local and global organisations to scale our collective impact.
-
-
+  ### How we make it happen:
+  description:
+    - "👨‍🏫 **Coaching and mentoring** to embed open source tools, practices, and governance models."
+    - "💡 **Tailored learning experiences** through workshops and peer exchanges grounded in real-world use."
+    - "🤝 **Cross-sector collaboration** between government, academia, industry, and community."
+    - "⚖️ **Ethical AI and policy advocacy** to ensure open technologies serve the public good."
+    - "🌍 **Partnerships** with local and global organisations to scale our collective impact."
 
 ########################### joinCURIOSS ##################################
 joincurioss:
-  enable : true
-  title : "What is CURIOSS?"
-  subtitle : "CURIOSS is a community for those working in University and Research Institution OSPOs. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
-    CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation. 
-"
+  enable: true
+  title: "What is CURIOSS?"
+  subtitle: |
+    CURIOSS is a community for those working in University and Research Institution OSPOs. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
+    CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation.
 
 ############################ features #################################
-  enable : true
-  title : "Learn from our member's experience"
+features:
+  enable: true
+  title: "Learn from our members' experience"
   featureItem:
-    # feature item
-    - title : "User Experience"
-      icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+    - title: "User Experience"
+      icon: "ti-vector"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
       
-    # feature item
-    - title : "Responsive Layout"
-      icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+    - title: "Responsive Layout"
+      icon: "ti-layout"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
       
-    # feature item
-    - title : "Digital Solutions"
-      icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+    - title: "Digital Solutions"
+      icon: "ti-headphone-alt"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
       
-    # feature item
-    - title : "Bootstrap 4x"
-      icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+    - title: "Bootstrap 4x"
+      icon: "ti-ruler-pencil"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
