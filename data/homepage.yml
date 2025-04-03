@@ -5,42 +5,22 @@ banner:
 
 ########################### home ##################################
 content: |
-  <section style="text-align: left; max-width: 800px; margin: 0 auto; padding: 2rem;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: #0072CE;">
-      <i class="fas fa-network-wired" style="color: #0072CE; margin-right: 0.5rem;"></i> The Open Ireland Network
-    </h1>
-    <h2 style="margin-top: 0.2rem; color: #333;">Enabling Open Source & Open Source AI across Ireland</h2>
+  # 🌐 The Open Ireland Network
 
-    <p style="font-size: 1.1rem; margin-top: 1.5rem; color: #444;">
-      We empower the people and teams driving Ireland’s open source movement.
-      Through expert support, collaboration, and advocacy, we help organisations confidently adopt
-      open source and open source AI—building a stronger, more connected ecosystem.
-    </p>
+  ## Enabling Open Source & Open Source AI across Ireland
 
-    <h3 style="margin-top: 2rem; color: #0072CE;">How we make it happen:</h3>
-    <ul style="list-style: none; padding-left: 0; font-size: 1rem; color: #444;">
-      <li style="margin-bottom: 1rem;">
-        <i class="fas fa-chalkboard-teacher" style="color: #0072CE; margin-right: 0.5rem;"></i>
-        <strong>Coaching and mentoring</strong> to embed open source tools, practices, and governance models.
-      </li>
-      <li style="margin-bottom: 1rem;">
-        <i class="fas fa-lightbulb" style="color: #0072CE; margin-right: 0.5rem;"></i>
-        <strong>Tailored learning experiences</strong> through workshops and peer exchanges grounded in real-world use.
-      </li>
-      <li style="margin-bottom: 1rem;">
-        <i class="fas fa-handshake" style="color: #0072CE; margin-right: 0.5rem;"></i>
-        <strong>Cross-sector collaboration</strong> between government, academia, industry, and community.
-      </li>
-      <li style="margin-bottom: 1rem;">
-        <i class="fas fa-balance-scale" style="color: #0072CE; margin-right: 0.5rem;"></i>
-        <strong>Ethical AI and policy advocacy</strong> to ensure open technologies serve the public good.
-      </li>
-      <li style="margin-bottom: 1rem;">
-        <i class="fas fa-globe" style="color: #0072CE; margin-right: 0.5rem;"></i>
-        <strong>Partnerships</strong> with local and global organisations to scale our collective impact.
-      </li>
-    </ul>
-  </section>
+  We empower the people and teams driving Ireland’s open source movement.  
+  Through expert support, collaboration, and advocacy, we help organisations confidently adopt  
+  open source and open source AI—building a stronger, more connected ecosystem.
+
+  ### How we make it happen:
+
+  - 👨‍🏫 **Coaching and mentoring** to embed open source tools, practices, and governance models.
+  - 💡 **Tailored learning experiences** through workshops and peer exchanges grounded in real-world use.
+  - 🤝 **Cross-sector collaboration** between government, academia, industry, and community.
+  - ⚖️ **Ethical AI and policy advocacy** to ensure open technologies serve the public good.
+  - 🌍 **Partnerships** with local and global organisations to scale our collective impact.
+
 
 
 
