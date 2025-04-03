@@ -4,24 +4,18 @@ banner:
   title : "Welcome to Open Ireland Network"
 
 ########################### home ##################################
-content: |
-  # 🌐 The Open Ireland Network
-
-  ## Enabling Open Source & Open Source AI across Ireland
-
-  We empower the people and teams driving Ireland’s open source movement.  
-  Through expert support, collaboration, and advocacy, we help organisations confidently adopt  
-  open source and open source AI—building a stronger, more connected ecosystem.
-
-  ### How we make it happen:
+home:
+  enable : true
+  title : "The Open Ireland Network?"
+  subtitle : We empower the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt  open source and open source AI—building a stronger, more connected ecosystem.
+ 
+ ### How we make it happen:
 
   - 👨‍🏫 **Coaching and mentoring** to embed open source tools, practices, and governance models.
   - 💡 **Tailored learning experiences** through workshops and peer exchanges grounded in real-world use.
   - 🤝 **Cross-sector collaboration** between government, academia, industry, and community.
   - ⚖️ **Ethical AI and policy advocacy** to ensure open technologies serve the public good.
   - 🌍 **Partnerships** with local and global organisations to scale our collective impact.
-
-
 
 
 
