@@ -1,47 +1,87 @@
-<head>
-  <meta charset="utf-8">
-  <title>{{ .Title }}</title>
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="{{ site.BaseURL }}">
+        <img
+          style="max-height: 60px;"
+          class="img-fluid"
+          src="{{ site.Params.logo | absURL }}"
+          alt="{{ site.Title }}"
+        >
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
 
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="description"
-    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with site.Params.author }}
-  <meta name="author" content="{{ . }}">{{ end }}
-  {{ hugo.Generator }}
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }}{{ . }}{{ end }}</a>
+          </li>
+          {{ range site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false"> {{ .Name }}</a>
+            <div class="dropdown-menu">
+              {{ range .Children }}
+              <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        {{ if .IsDescendant (index (where .Site.Pages "CurrentSection.Title" "Learning Path") 0) }}
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>{{ .Site.Language.LanguageName }}</option>
+          {{ range .Translations }}
+          <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+          {{ end }}
+        </select>
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
 
-  {{ "<!-- plugins -->" | safeHTML }}
-  {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
-  {{ end }}
-  {{ if .Params.Quiz }}
-  <link rel="stylesheet" href="/plugins/quizdown/quizdown.css" />
-  {{ end }}
+<!-- Optional banner section (cleaned) -->
+<section class="notice btn-primary text-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <!-- Add banner message here or remove this block if not needed -->
+      </div>
+    </div>
+  </div>
+</section>
 
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
-  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
+<!-- 
+Optional second banner (currently unused)
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <i class="ti-calendar mr-2"></i>Join us for our next in person Workshop, Dec 08th, at 9am EST -  
+        <a href="https://www.eventbrite.com/e/us-oss-policy-assembly-open-source-open-science-tickets-458786291147" class="btn-link ml-1" target="_blank">
+          US OSS Policy Assembly: Open Source & Open Science <i class="ti-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+-->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/color_logo_vert1.svg">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="layout" content="{{ .Kind }} - {{ .Layout }} - {{ .Type }} - {{ .Section }} - {{ .CurrentSection }}">
-
-  {{ if .IsTranslated }}
-  {{ range .Translations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
-  {{ end }}
-  {{ end }}
-
-  {{ template "_internal/opengraph.html" . }}
-  {{ if .Params.Image }}
-  {{ with .Params.Image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-  {{else}}
-  {{ with site.Params.defaultImage }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-  {{ end }}
-
-</head>
+<!-- 💡 CSS SUGGESTION: Add this to your CSS file for tighter navbar spacing
+header.navigation .navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+-->
