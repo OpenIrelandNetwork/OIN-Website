@@ -10,10 +10,12 @@
       <p class="lead">{{ .subtitle | markdownify }}</p>
 
       {{ with .description }}
-      <div class="text-left mt-4">
-        {{ range . }}
-          <p class="lead">{{ . | markdownify }}</p>
-        {{ end }}
+      <div class="d-flex justify-content-center mt-4">
+        <div class="text-start" style="max-width: 720px;">
+          {{ range . }}
+            <p class="lead">{{ . | markdownify }}</p>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
 
