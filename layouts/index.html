@@ -7,15 +7,32 @@
     {{ with .Site.Data.homepage.home }}
     <div class="col-lg-10 mx-auto text-center">
       <h2>{{ .title | markdownify }}</h2>
-      <p class="lead">{{ .subtitle | markdownify}}</p>
-      <p class="lead">{{ .content | markdownify}}</p>
-      <p class="lead text-left">{{ .header | markdownify}}</p>
-      <div class="lead text-left">{{ .bullet_point | safeHTML }}</div>
+      <p class="lead">{{ .subtitle | markdownify }}</p>
+
+      {{ with .description }}
+      <div class="text-left mt-4">
+        {{ range . }}
+          <p class="lead">{{ . | markdownify }}</p>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ with .content }}
+      <p class="lead">{{ . | markdownify }}</p>
+      {{ end }}
+
+      {{ with .header }}
+      <p class="lead text-left">{{ . | markdownify }}</p>
+      {{ end }}
+
+      {{ with .bullet_point }}
+      <div class="lead text-left">{{ . | safeHTML }}</div>
       {{ end }}
     </div>
+    {{ end }}
+
     <div class="container bg-white">
-      <div class="row justify-content-center mt-4">
-      </div>
+      <div class="row justify-content-center mt-4"></div>
       <div class="row d-flex justify-content-center">
         <a href="/about/contact/" class="btn btn-primary btn-sm">Click here to contact the Open Ireland Network team!</a>
       </div>
@@ -24,7 +41,6 @@
 </section>
 <!-- /home -->
 {{ end }}
-
 
 {{ if .Site.Data.homepage.joincurioss.enable }}
 <section class="section">
@@ -35,8 +51,7 @@
         <div class="card hover-bg-secondary shadow py-4">
           <div class="card-body text-center">
             <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle {{ .icon }} mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-box bg-gradient-primary rounded-circle {{ .icon }} mb-5 d-inline-block text-white"></i>
               <i class="icon-lg icon-watermark text-white {{ .icon }}"></i>
             </div>
             <h4 class="mb-4">{{ .title | markdownify }}</h4>
@@ -48,8 +63,6 @@
     </div>
   </div>
 </section>
-
 {{ end }}
-
 
 {{ end }}

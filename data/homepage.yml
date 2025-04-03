@@ -8,8 +8,6 @@ home:
   enable: true
   title: "The Open Ireland Network?"
   subtitle: "We empower the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt open source and open source AI—building a stronger, more connected ecosystem."
-
-  ### How we make it happen:
   description:
     - "👨‍🏫 **Coaching and mentoring** to embed open source tools, practices, and governance models."
     - "💡 **Tailored learning experiences** through workshops and peer exchanges grounded in real-world use."
@@ -33,15 +31,15 @@ features:
     - title: "User Experience"
       icon: "ti-vector"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
+
     - title: "Responsive Layout"
       icon: "ti-layout"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
+
     - title: "Digital Solutions"
       icon: "ti-headphone-alt"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
+
     - title: "Bootstrap 4x"
       icon: "ti-ruler-pencil"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
