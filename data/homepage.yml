@@ -6,11 +6,11 @@ banner:
 ########################### home ##################################
 home:
   enable: true
-  title: "The Open Ireland Network?"
-  subtitle: "We empower the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt open source and open source AI—building a stronger, more connected ecosystem."
+  title: "The Open Ireland Network"
+  subtitle: "Epowers the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt open source and open source AI—building a stronger, more connected ecosystem."
   description:
-    - "👨‍🏫 **Coaching and mentoring** to embed open source tools, practices, and governance models."
-    - "💡 **Tailored learning experiences** through workshops and peer exchanges grounded in real-world use."
+    - "👨‍🏫 **Coaching teams for flow and collaboration** using Team Topologies to embed open source ways of working"
+    - "💡 **Tailored learning experiences** through CoPs and peer exchanges grounded in real-world use."
     - "🤝 **Cross-sector collaboration** between government, academia, industry, and community."
     - "⚖️ **Ethical AI and policy advocacy** to ensure open technologies serve the public good."
     - "🌍 **Partnerships** with local and global organisations to scale our collective impact."
