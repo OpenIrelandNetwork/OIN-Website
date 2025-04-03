@@ -5,38 +5,46 @@
 <section class="section">
   <div class="container">
     {{ with .Site.Data.homepage.home }}
+
+    <!-- Centered title and subtitle -->
     <div class="col-lg-10 mx-auto text-center">
       <h2>{{ .title | markdownify }}</h2>
       <p class="lead">{{ .subtitle | markdownify }}</p>
+    </div>
 
-      {{ with .description }}
-      <div class="d-flex justify-content-center mt-4">
-        <div class="text-start" style="max-width: 720px;">
-          {{ range . }}
-            <p class="lead">{{ . | markdownify }}</p>
-          {{ end }}
-        </div>
+    <!-- Left-aligned bullet description list -->
+    {{ with .description }}
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8 text-start">
+        {{ range . }}
+          <p class="lead mb-4">{{ . | markdownify }}</p>
+        {{ end }}
       </div>
-      {{ end }}
-
-      {{ with .content }}
-      <p class="lead">{{ . | markdownify }}</p>
-      {{ end }}
-
-      {{ with .header }}
-      <p class="lead text-left">{{ . | markdownify }}</p>
-      {{ end }}
-
-      {{ with .bullet_point }}
-      <div class="lead text-left">{{ . | safeHTML }}</div>
-      {{ end }}
     </div>
     {{ end }}
 
+    <!-- Optional additional content blocks -->
+    {{ with .content }}
+    <p class="lead">{{ . | markdownify }}</p>
+    {{ end }}
+
+    {{ with .header }}
+    <p class="lead text-start">{{ . | markdownify }}</p>
+    {{ end }}
+
+    {{ with .bullet_point }}
+    <div class="lead text-start">{{ . | safeHTML }}</div>
+    {{ end }}
+
+    {{ end }}
+
+    <!-- Contact CTA -->
     <div class="container bg-white">
       <div class="row justify-content-center mt-4"></div>
       <div class="row d-flex justify-content-center">
-        <a href="/about/contact/" class="btn btn-primary btn-sm">Click here to contact the Open Ireland Network team!</a>
+        <a href="/about/contact/" class="btn btn-primary btn-sm">
+          Contact Open Ireland Network
+        </a>
       </div>
     </div>
   </div>
