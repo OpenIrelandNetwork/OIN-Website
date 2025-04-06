@@ -65,25 +65,11 @@
 &lt;/html></description></item><item><title>Community Code of Conduct</title><link>https://openirelandnetwork.github.io/about/codeofconduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openirelandnetwork.github.io/about/codeofconduct/</guid><description>&lt;h2 id="our-pledge">Our Pledge&lt;/h2>
 &lt;p>We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p></description></item><item><title>Contact Open Ireland Network</title><link>https://openirelandnetwork.github.io/about/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openirelandnetwork.github.io/about/contact/</guid><description>&lt;p>Open Ireland Network is a Blah Blah.&lt;/p></description></item><item><title>Who can join CURIOSS?</title><link>https://openirelandnetwork.github.io/about/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openirelandnetwork.github.io/about/join/</guid><description>&lt;section class="section" style="padding-top: 20px; padding-bottom: 20px;">
+size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p></description></item><item><title>Contact Open Ireland Network</title><link>https://openirelandnetwork.github.io/about/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openirelandnetwork.github.io/about/contact/</guid><description>&lt;p>Open Ireland Network is a Blah Blah.&lt;/p></description></item><item><title>Who Can Join Open Ireland Network?</title><link>https://openirelandnetwork.github.io/about/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://openirelandnetwork.github.io/about/join/</guid><description>&lt;section class="section" style="padding-top: 20px; padding-bottom: 20px;">
  &lt;div class="container">
  &lt;div class="row align-items-center">
  &lt;/div>
  &lt;div class="col-md-6">
  &lt;div class="bg-white p-4">
- &lt;h3>CURIOSS Member Application&lt;/h3>
- &lt;form action="https://docs.google.com/forms/d/1uzWysuE89ASvZYFq9CUOZgvsvCQZ7nxzQzGdgIeWRwY/formResponse" target="_blank" method="post">
- &lt;input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Name">
- &lt;input type="text" id="email" name="email" class="form-control mb-4 px-0" placeholder="Email address">
- &lt;input type="text" id="institution" name="institution" class="form-control mb-4 px-0" placeholder="Institution">
- &lt;label for="review">Please tell us a little about your institution’s OSPO:&lt;/label>
- &lt;textarea id="review" name="review" rows="4" cols="50">
- &lt;/textarea>
- &lt;label for="Q&amp;A">Comments or questions:&lt;/label>
- &lt;textarea id="Q&amp;A" name="Q&amp;A" rows="4" cols="50">
- &lt;/textarea>
- &lt;input class="btn btn-primary" type="submit" value="Submit">
- &lt;/form>
- &lt;/div>
- &lt;/div>
-&lt;/section></description></item></channel></rss>
+ &lt;h3>Join the Open Ireland Network Community&lt;/h3>
+ &lt;p>We invite individuals and organisations across Ireland who are passionate about open collaboration to connect with us.&lt;/p></description></item></channel></rss>
