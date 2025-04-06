@@ -1,7 +1,7 @@
 ---
 title: "Community Code of Conduct"
 subtitle: ""
-description: "CURIOSS is a community of university and research institution OSPOs"
+description: "**Open Ireland Network** is a not-for-profit organisation that supports the growing community of organisations and individuals across the island of Ireland who are passionate about all things open."
 draft: false
 image: "/images/logo.png"
 ---

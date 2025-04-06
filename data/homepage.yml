@@ -6,22 +6,27 @@ banner:
 ########################### home ##################################
 home:
   enable: true
-  title: "The Open Ireland Network"
-  subtitle: "Epowers the people and teams driving Ireland’s open source movement. Through expert support, collaboration, and advocacy, we help organisations confidently adopt open source and open source AI—building a stronger, more connected ecosystem."
+  title: "Open Ireland Network"
+  subtitle: "**Connecting Ireland through Open Collaboration**"
   description:
-    - "👨‍🏫 **Coaching teams for flow and collaboration** using Team Topologies to embed open source ways of working"
-    - "💡 **Tailored learning experiences** through CoPs and peer exchanges grounded in real-world use."
-    - "🤝 **Cross-sector collaboration** between government, academia, industry, and community."
-    - "⚖️ **Ethical AI and policy advocacy** to ensure open technologies serve the public good."
-    - "🌍 **Partnerships** with local and global organisations to scale our collective impact."
+    - "🔓 **Open Ireland Network** is a growing community for organisations and individuals across the island of Ireland who are passionate about all things open."
+    - "We foster connections and collaboration around:"
+    - "• **Open Source Software**"
+    - "• **Open Hardware**"
+    - "• **Open Data**"
+    - "• **Open Science**"
+    - ""
+    - "**Whether you're building, researching, governing, or just curious — if it's open, you're welcome.**"
+    - ""
+    - "➡️ Join us in shaping an open, transparent, and innovative Ireland."
 
 ########################### joinCURIOSS ##################################
 joincurioss:
   enable: true
-  title: "What is CURIOSS?"
-  subtitle: |
-    CURIOSS is a community for those working in University and Research Institution OSPOs. Our goals are to facilitate the networking and collaboration between CURIOSS representatives from universities and research institutions worldwide.
-    CURIOSS was set up in 2023 with the support of a grant from the Alfred P. Sloan Foundation.
+  title: "What is the Open Ireland Network?"
+  description: |
+    The Open Ireland Network is a community for individuals and organisations across Ireland passionate about openness.
+    We connect and collaborate around Open Source, Hardware, Data, Science, and more—to shape a transparent, innovative future.
 
 ############################ features #################################
 features:
