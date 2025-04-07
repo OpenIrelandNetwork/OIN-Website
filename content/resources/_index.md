@@ -29,14 +29,3 @@ The MOSS-I framework is designed to guide the research and academic community in
 This framework draws from international best practices and tailors them to the Irish research ecosystem.
 
 ---
-
-
-
-The list below was built from links shared during CURIOSS calls and other Open Ireland Network community events.  
-If you would like to add a resource or report a correction, please [contact us](mailto:XXXXXXX).
-
-<iframe src="https://docs.google.com/spreadsheets/d/1mJa_rCzj6kcvOIkwRfyWMognAXAjIrFv/pubhtml?widget=true&amp;headers=false" frameborder="0" height="1000" width="100%"></iframe>
-
----
-
-We also maintain [a list of publications](/resources/publications) from our members.

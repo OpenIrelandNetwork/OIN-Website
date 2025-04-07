@@ -21,8 +21,8 @@ menu:
       URL: about
       parent: about
       weight: 1
-    - name: Members
-      URL: about/members
+    - name: Events
+      URL: about/events
       parent: about
       weight: 2
     - name: Code of Conduct
@@ -57,8 +57,8 @@ menu:
     - name: About Open Ireland Network
       URL: about
       weight: 2
-    - name: Members
-      URL: about/members
+    - name: Events
+      URL: about/events
       weight: 3
     - name: Code of Conduct
       URL: about/codeofconduct
@@ -120,7 +120,7 @@ params:
   home: "Home"
   logo_width: 200px
   themeVariant: quizdown
-  description: Open Ireland Network is a Blah Blah. Our goals are to facilitate the networking and collaboration between XYZ
+  description: Open Ireland Network is a not-for-profit organisation that supports the growing community of organisations and individuals across the island of Ireland who are passionate about all things open.
   author: Open Ireland Network
   defaultImage: images/curioss.png
   footer_content: >-
