@@ -7,14 +7,14 @@ services:
   # service item
   - title: "About Open Ireland Network"
     icon: "ti-comments" # themify icon pack https://themify.me/themify-icons
-    content: "Find out more about CURIOSS, the organizing and membership [here](/about/)."
+    content: "Find out more about the Open Ireland Network [here](/about/)."
 
   # service item
-  - title: "Members"
+  - title: "Events"
     icon: "ti-announcement" # themify icon pack https://themify.me/themify-icons
-    content: "Find out about who is part of the Open Ireland Network on our [Members page](/about/members/)."
+    content: "Find out more about our [events](https://openirelandnetwork.github.io/events/) and how to get involved."
 
   # service item
-  - title: "Contact Open Ireland Network"
+  - title: "Join our Mailing list Contact Open Ireland Network"
     icon: "ti-email" # themify icon pack https://themify.me/themify-icons
-    content: "We always love hearing from people working in or with academic OSPOs. Check out [our contact page](/about/contact/)."
+    content: "Sign up to our [Mailing list](https://groups.google.com/g/openirelandnetwork) to stay up to date with the latest news and events."

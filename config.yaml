@@ -17,7 +17,7 @@ menu:
       hasChildren: true
       identifier: about
       weight: 3
-    - name: About OPEN IRELAND NETWORK
+    - name: About Open Ireland Network
       URL: about
       parent: about
       weight: 1
@@ -54,7 +54,7 @@ menu:
       URL: about
       weight: 1
       post: bold
-    - name: About CURIOSS
+    - name: About Open Ireland Network
       URL: about
       weight: 2
     - name: Members
