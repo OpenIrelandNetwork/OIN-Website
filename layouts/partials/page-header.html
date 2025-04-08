@@ -1,8 +1,8 @@
 <section class="section pb-0 section-first">
   <div class="container text-center">
-    <h1 class="display-3">{{ .Title | markdownify }}</h1>
+    <h1 class="display-3 responsive-title">{{ .Title | markdownify }}</h1>
     {{ with .Params.subtitle }}
-    <p class="py-4">{{ . | markdownify }}</p>
+    <p class="py-4 responsive-subtitle">{{ . | markdownify }}</p>
     {{ end }}
   </div>
 </section>
