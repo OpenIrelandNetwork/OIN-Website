@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 url: /resources/
-subtitle: "Welcome to the Open Ireland Network Resources Page."
+Title: "Welcome to the Open Ireland Network Resources Page."
 ---
 
 Open Ireland Network supports and contributes to a growing set of resources aimed at empowering individuals, organisations, and institutions across Ireland to engage with open source, InnerSource, and open practices. Below is a curated list of key publications and frameworks we’ve been involved in.
@@ -10,10 +10,13 @@ Open Ireland Network supports and contributes to a growing set of resources aime
 
 ### 📘 Featured Resources
 
+
+
 #### 🔧 [Open Source and InnerSource Skills in Ireland: A Call for Action](https://www.skillnetireland.ie/uploads/attachments/Open-Source-and-InnerSource-Skills-in-Ireland-A-Call-for-Action.pdf)
 **Description:**  
 Open source and InnerSource provide opportunities for seamless collaboration and innovation within and between organisations in the tech sector.  
 This report outlines the key advantages of leveraging open source and InnerSource in Ireland, and highlights how investing in these skills can fulfil talent needs and position Ireland as a leader in this space.
+
 
 ### 📚 Open Ireland Network Learning Resources
 
