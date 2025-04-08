@@ -5,7 +5,7 @@ banner:
 
 ########################### home ##################################
 home:
-  enable: true
+  title: "<h1 style='font-size: 2em;'>Open Ireland Network</h1>"
   title: "Open Ireland Network"
   subtitle: "**Connecting Ireland through Open Collaboration**"
   description:
@@ -17,7 +17,6 @@ home:
     - "• **Open Science**"
     - ""
     - "**Whether you're building, researching, governing, or just curious — if it's open, you're welcome.**"
-    - ""
     - "➡️ Join us in shaping an open, transparent, and innovative Ireland."
 
 ########################### joinCURIOSS ##################################
