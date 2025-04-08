@@ -1,11 +1,12 @@
-{{/* define "main" */}}
+{{ define "main" }}
 
 {{/* partial "breadcrumbs.html" . */}}
 {{/* partial "page-header.html" . */}}
 
-{{/* $pages := .Data.Pages */}}
-{{/* $yesterday := (now.AddDate 0 0 -1).Unix */}}
-{{/* $pages = where $pages "Section" "in" "events" */}}
+{{ $pages := .Pages }}
+{{ $yesterday := (now.AddDate 0 0 -1).Unix }}
+{{ $pages = where $pages "Section" "in" "events" }}
+
 <section class="section">
   <div class="container">
     <div class="row">
@@ -29,9 +30,11 @@
         Planned <a href="../about/contact/">Want to host one?</a>
       </div>
       {{ end }}
+
       <div class="container text-center pb-4 mb-4">
         <h3 class="display-4">Previous Community Calls</h3>
       </div>
+
       {{ range where $pages ".Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
         <div class="card border-0 h-100">
