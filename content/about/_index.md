@@ -27,6 +27,7 @@ _**Get involved with Open Ireland Network.**_
         <img src="/static/images/about/team/michael.jpg" alt="Michael Meagher"/>
       </div>
     </div>
+  </div>
     <p>As a director of Open Ireland Network, Michael is dedicated to helping organisations embrace open source and unlock transformative opportunities of open practices. Michael's career spans leadership roles in technical marketing and developer evangelism for one of the largest tech companies, where he honed his expertise in community building and audience reach. Michael has also led efforts to develop new frameworks for developing open source policies within Irish universities and fostering collaboration between academia and industry. 
     Actively engaged with key players driving open source AI initiatives, Michael bridges cutting-edge innovation with practical application. In addition to his work in open source, Michael is a qualified coach and mentor to several technology startups. He brings his wealth of experience to guide emerging innovators, helping them navigate challenges and achieve their goals.
     </p>
