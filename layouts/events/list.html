@@ -1,11 +1,11 @@
-{{ define "main" }}
+{{/* define "main" */}}
 
-{{ partial "breadcrumbs.html" . }}
-{{ partial "page-header.html" . }}
+{{/* partial "breadcrumbs.html" . */}}
+{{/* partial "page-header.html" . */}}
 
-{{ $pages := .Data.Pages }}
-{{ $yesterday := (now.AddDate 0 0 -1).Unix }}
-{{ $pages = where $pages "Section" "in" "events" }}
+{{/* $pages := .Data.Pages */}}
+{{/* $yesterday := (now.AddDate 0 0 -1).Unix */}}
+{{/* $pages = where $pages "Section" "in" "events" */}}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -26,7 +26,7 @@
       </div>
       {{ else }}
       <div class="col-md-12 text-center mb-4">
-        Planned Events </a>
+        Planned <a href="../about/contact/">Want to host one?</a>
       </div>
       {{ end }}
       <div class="container text-center pb-4 mb-4">
