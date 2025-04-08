@@ -2,7 +2,7 @@
 title: "Who Can Join Open Ireland Network?"
 subtitle: "**Open Ireland Network** is a not-for-profit organisation that supports the growing community of organisations and individuals across the island of Ireland who are passionate about all things open. If you're working with or curious about Open Source Software, Hardware, Data, Research, or Government—we’d love to connect with you."
 description: "Get involved with Open Ireland Network."
-image: "/images/logo.png"
+image: "static/images/logo.png"
 type: wide
 ---
 <section class="section" style="padding-top: 20px; padding-bottom: 20px;">

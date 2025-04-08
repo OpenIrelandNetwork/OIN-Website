@@ -7,8 +7,8 @@ preserveTaxonomyNames: true
 pluralizeListTitles: false
 menu:
   main:
-    - name: News
-      URL: news
+    - name: Events
+      URL: events
       weight: 1
     - name: Resources
       URL: resources
@@ -21,10 +21,6 @@ menu:
       URL: about
       parent: about
       weight: 1
-    - name: Events
-      URL: about/events
-      parent: about
-      weight: 2
     - name: Code of Conduct
       URL: about/codeofconduct
       parent: about
@@ -39,8 +35,8 @@ menu:
       weight: 1
       post: bold
   footer_middle:
-    - name: News
-      URL: news
+    - name: Events
+      URL: events
       weight: 1
       post: bold
       pre: _blank
@@ -57,9 +53,6 @@ menu:
     - name: About Open Ireland Network
       URL: about
       weight: 2
-    - name: Events
-      URL: about/events
-      weight: 3
     - name: Code of Conduct
       URL: about/codeofconduct
       weight: 4

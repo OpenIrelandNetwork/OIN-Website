@@ -5,8 +5,8 @@ description:
 ############################### services ####################################
 services:
   # service item
-  - title: "About Open Ireland Network"
-    icon: "ti-comments" # themify icon pack https://themify.me/themify-icons
+  - title: "Resources"
+    icon: "ti-bookmark" # themify icon pack https://themify.me/themify-icons
     content: "Find out more about the Open Ireland Network [here](/about/)."
 
   # service item
