@@ -7,7 +7,7 @@ services:
   # service item
   - title: "Resources"
     icon: "ti-bookmark" # themify icon pack https://themify.me/themify-icons
-    content: "Find out more about the Open Ireland Network [here](/about/)."
+    content: "Guides, frameworks, and reports. [here](/resources/)."
 
   # service item
   - title: "Events"
