@@ -5,8 +5,7 @@ banner:
 
 ########################### home ##################################
 home:
-  title: "<h1 style='font-size: 2em;'>Open Ireland Network</h1>"
-  title: "Open Ireland Network"
+  title: #"The Open Ireland Network"
   subtitle: "**Connecting Ireland through Open Collaboration**"
   description:
     - "🔓 **Open Ireland Network** is a growing community for organisations and individuals across the island of Ireland who are passionate about all things open."
