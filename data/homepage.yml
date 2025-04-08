@@ -5,15 +5,15 @@ banner:
 
 ########################### home ##################################
 home:
-  title: #"The Open Ireland Network"
+  title: "The Open Ireland Network"
   subtitle: "**Connecting Ireland through Open Collaboration**"
   description:
-    - "🔓 **Open Ireland Network** is a growing community for organisations and individuals across the island of Ireland who are passionate about all things open."
+    - "**Open Ireland Network** is a growing community for organisations and individuals across the island of Ireland who are passionate about all things open."
     - "We foster connections and collaboration around:"
-    - "• **Open Source Software**"
-    - "• **Open Hardware**"
-    - "• **Open Data**"
-    - "• **Open Science**"
+    - "- **Open Source Software**"
+    - "- **Open Hardware**"
+    - "- **Open Data**"
+    - "- **Open Science**"
     - ""
     - "**Whether you're building, researching, governing, or just curious — if it's open, you're welcome.**"
     - "➡️ Join us in shaping an open, transparent, and innovative Ireland."
