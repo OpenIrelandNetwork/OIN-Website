@@ -5,11 +5,11 @@
 
 {{ $pages := .Data.Pages }}
 {{ $yesterday := (now.AddDate 0 0 -1).Unix }}
-{{ $pages = where $pages "Section" "in" "events" }}
+{{ $pages = where $pages "Section" "events" }}
 <section class="section">
   <div class="container" style="display: none;"></div>
     <div class="row">
-      {{ range (where $pages ".Date.Unix" ">=" $yesterday).Reverse }}
+      {{ range (where $pages "Date.Unix" ">=" $yesterday).Reverse }}
       <div class="col-12 mb-5 pb-5">
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
@@ -32,7 +32,7 @@
       <div class="container text-center pb-4 mb-4">
         <h3 class="display-4">Previous Community Calls</h3>
       </div>
-      {{ range where $pages ".Date.Unix" "<" $yesterday }}
+      {{ range where $pages "Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
         <div class="card border-0 h-100">
           <div class="h-md-45">
