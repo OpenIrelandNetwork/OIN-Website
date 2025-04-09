@@ -10,6 +10,10 @@ menu:
     - name: Events
       URL: events
       weight: 1
+    - name: Past Events
+      hasChildren: true
+      identifier: events
+      weight: 3
     - name: Resources
       URL: resources
       weight: 2
@@ -29,7 +33,6 @@ menu:
       URL: about/contact
       parent: about
       weight: 4
-  
   footer_left:
     - name: Home
       weight: 1
