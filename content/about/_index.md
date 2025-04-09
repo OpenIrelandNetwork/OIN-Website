@@ -3,8 +3,6 @@ title: "About Open Ireland Network"
 draft: false
 ---
 <section>
-  <header>
-    <h1>About Open Ireland Network</h1>
     <p><strong>Open Ireland Network</strong> is a not-for-profit organisation that supports the growing community of organisations and individuals across the island of Ireland who are passionate about all things open.</p>
     <p>If you're working with or curious about <strong>Open Source Software</strong>, <strong>Hardware</strong>, <strong>Data</strong>, <strong>Open Science</strong>, or <strong>Open Source AI</strong> — we’d love to connect with you.</p>
     <p><em>Get involved with Open Ireland Network.</em></p>
@@ -15,7 +13,7 @@ draft: false
   <h2 class="text-center">The Team</h2>
   
   <!-- Team Member Clare Dillon -->
-  <article class="team-member">
+  <article class="team-member" style="max-width: 400px;">
     <div class="image-container">
       <img src="/images/about/team/clare.png" alt="Clare Dillon" class="img-fluid rounded-circle"/>
     </div>
@@ -27,7 +25,7 @@ draft: false
   </article>
 
   <!-- Team Member Michael Meagher -->
-  <article class="team-member">
+  <article class="team-member" style="max-width: 400px;">
     <div class="image-container">
       <img src="/images/about/team/michael.jpg" alt="Michael Meagher" class="img-fluid rounded-circle"/>
     </div>
