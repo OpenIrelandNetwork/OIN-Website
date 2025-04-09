@@ -12,7 +12,7 @@ services:
   # service item
   - title: "Events"
     icon: "ti-announcement" # themify icon pack https://themify.me/themify-icons
-    content: "Find out more about our [events](https://openirelandnetwork.github.io/events/) and how to get involved."
+    content: "Find out more about our past [events](https://openirelandnetwork.github.io/events/) whats next."
 
   # service item
   - title: "Join our Mailing list Contact Open Ireland Network"
