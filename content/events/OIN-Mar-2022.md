@@ -1,9 +1,9 @@
 ---
 title: Open Source Security and Risk Management – March 2022
-type: redirects
+date: 2022-03-11
 redirect: "https://youtu.be/JwJuW-X37hM?si=mqEhaJ309Y49l63r"
 image: "/images/events/OIN-10-03-2022.png"
-date: 2022-03-11
+
 publishDate: 2022-03-11
 
 ---

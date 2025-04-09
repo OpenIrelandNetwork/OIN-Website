@@ -9,3 +9,5 @@ publishDate: 2022-03-11
 ---
 
 The Open Ireland Network discusses the Skillnet Ireland  report titled “Open Source and InnerSource Skills in Ireland
+
+
