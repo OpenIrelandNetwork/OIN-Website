@@ -36,7 +36,7 @@
         {{ $now := now }}
         <ul class="event-list">
           {{ range sort .Site.RegularPages "Date" "desc" }}
-            {{ if and (eq .Section "events") (ne .File.Path "events/past.md") (ne .File.Path "events/upcoming.md") }}
+            {{ if and (eq .Section "events") (ne .File.Path "content/events/past.md") (ne .File.Path "content/events/upcoming.md") }}
               {{ if or (and (eq (.Get "filter") "past") (lt .Date $now)) (and (eq (.Get "filter") "upcoming") (ge .Date $now)) }}
                 <li>
                   <a href="{{ .Params.redirect | default .RelPermalink }}">
