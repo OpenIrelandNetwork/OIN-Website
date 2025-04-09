@@ -33,33 +33,22 @@
 
       <div class="container text-center pb-4 mb-4">
         <h3 class="display-4">Previous Community Calls</h3>
-      </div>
-
-      {{ range where $pages ".Date.Unix" "<" $yesterday }}
-      <div class="col-lg-4 col-sm-6 mb-5 event-card">
-        <div class="card border-0 h-100">
-          <div class="h-md-45">
-            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg">
-            </a>
-          </div>
-          <div class="card-body p-0 d-flex flex-column">
-            <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
-            <p class="">{{ .Summary }}</p>
-            <div class="d-flex mt-auto flex-md-row flex-sm-column">
-              <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm mr-md-1">Open Event</a>
-              {{ if .Params.youtubeLink }}
-                <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Watch Recording</a>
-              {{ else if .Params.blogPostLink }}
-                <a href="{{ .Params.blogPostLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Read the blog post</a>
+        {{ $now := now }}
+        <ul class="event-list">
+          {{ range sort .Site.RegularPages "Date" "desc" }}
+            {{ if and (eq .Section "events") (ne .File.Path "events/past.md") (ne .File.Path "events/upcoming.md") }}
+              {{ if or (and (eq (.Get "filter") "past") (lt .Date $now)) (and (eq (.Get "filter") "upcoming") (ge .Date $now)) }}
+                <li>
+                  <a href="{{ .Params.redirect | default .RelPermalink }}">
+                    {{ if .Params.image }}
+                      <img src="{{ .Params.image }}" alt="{{ .Title }}" style="max-width: 200px;" />
+                    {{ end }}
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Date.Format "January 2, 2006" }}</p>
+                  </a>
+                </li>
               {{ end }}
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{ end }}
+            {{ end }}
+          {{ end }}
+        </ul>
+        
