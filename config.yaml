@@ -139,3 +139,13 @@ params:
 taxonomies:
   tag: "tags"
   category: "categories"
+social:
+  - title: github
+    icon: ti-github
+    link: 'https://github.com/OpenIrelandNetwork'
+  - title: youtube
+    icon: ti-youtube
+    link: 'https://www.youtube.com/@openirelandnetwork1222'
+  - title: linkedin
+    icon: ti-linkedin
+    link: 'https://www.linkedin.com/company/open-ireland-network/
