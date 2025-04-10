@@ -1,15 +1,62 @@
 {{ define "main" }}
+
+{{ partial "breadcrumbs.html" . }}
+{{ partial "page-header.html" . }}
+
+{{ $pages := .Data.Pages }}
+{{ $yesterday := (now.AddDate 0 0 -1).Unix }}
+{{ $pages = where $pages "Section" "in" "events" }}
 <section class="section">
   <div class="container">
-    <h1>{{ .Title }}</h1>
     <div class="row">
-      {{ range .Pages }}
-      <div class="col-md-4">
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Summary }}</p>
+      {{ range (where $pages ".Date.Unix" ">=" $yesterday).Reverse }}
+      <div class="col-12 mb-5 pb-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h2><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h2>
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">Open Event</a>
+          </div>
+        </div>
+      </div>
+      {{ else }}
+      <div class="col-md-12 text-center mb-4">
+        No future events are planned currently. <a href="../about/contact/">Want to host one?</a>
+      </div>
+      {{ end }}
+      <div class="container text-center pb-4 mb-4">
+        <h3 class="display-4">Previous Community Calls</h3>
+      </div>
+      {{ range where $pages ".Date.Unix" "<" $yesterday }}
+      <div class="col-lg-4 col-sm-6 mb-5 event-card">
+        <div class="card border-0 h-100">
+          <div class="h-md-45">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg">
+            </a>
+          </div>
+          <div class="card-body p-0 d-flex flex-column">
+            <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
+            <p class="">{{ .Summary }}</p>
+            <div class="d-flex mt-auto flex-md-row flex-sm-column">
+              <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm mr-md-1">Open Event</a>
+              {{ if .Params.youtubeLink }}
+                <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Watch Recording</a>
+              {{ else if .Params.blogPostLink }}
+                <a href="{{ .Params.blogPostLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Read the blog post</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
+
 {{ end }}
