@@ -1,9 +1,8 @@
-baseURL: 'https://github.com/OpenIrelandNetwork/OIN-Website'
+baseURL: 'https://openirelandnetwork.github.io/OIN-Website/'
 title: Open Ireland Network
 buildFuture: true
 summaryLength: 10
 preserveTaxonomyNames: true
-
 pluralizeListTitles: false
 menu:
   main:
@@ -19,14 +18,16 @@ menu:
       URL: about
       weight: 3
       post: bold
-    - name: Code of Conduct
-      URL: about/codeofconduct
-      weight: 4
-      post: bold
-    - name: Contact
-      URL: about/contact
-      weight: 5
-      post: bold
+      children:
+      - name: About Open Ireland Network
+        URL: about
+        weight: 1
+      - name: Contact
+        URL: about/contact
+        weight: 2
+      - name: Code of Conduct
+        URL: about/codeofconduct
+        weight: 3
   footer_left:
     - name: Home
       weight: 1
