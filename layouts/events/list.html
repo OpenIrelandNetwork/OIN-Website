@@ -1,8 +1,5 @@
 {{ define "main" }}
 
-{{ partial "breadcrumbs.html" . }}
-{{ partial "page-header.html" . }}
-
 {{ $pages := .Data.Pages }}
 {{ $yesterday := (now.AddDate 0 0 -1).Unix }}
 {{ $pages = where $pages "Section" "in" "events" }}
@@ -26,11 +23,11 @@
       </div>
       {{ else }}
       <div class="col-md-12 text-center mb-4">
-        No future events are planned currently. <a href="../about/contact/">Want to host one?</a>
+        Stay Tuned and sign up to keep track of our events. <a href="../about/contact/">Join our mailing list</a>
       </div>
       {{ end }}
       <div class="container text-center pb-4 mb-4">
-        <h3 class="display-4">Previous Community Calls</h3>
+        <h3 class="display-4">Previous Events</h3>
       </div>
       {{ range where $pages ".Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
