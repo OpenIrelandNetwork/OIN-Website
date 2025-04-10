@@ -26,7 +26,7 @@ draft: false
   <!-- Team Member Michael Meagher -->
   <article class="team-member">
     <div class="image-container">
-      <img src="/static/images/about/team/michael.jpg" alt="Michael Meagher" class="img-fluid rounded-circle"/>
+      <img src="/static/images/about/team/michael.jpg" alt="Michael J Meagher" class="img-fluid rounded-circle"/>
     </div>
     <div class="bio">
       <h3>Michael Meagher</h3>
