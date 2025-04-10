@@ -140,12 +140,12 @@ taxonomies:
   tag: "tags"
   category: "categories"
 social:
-  - title: github
-    icon: ti-github
+  - title: GitHub
+    icon: fab fa-github
     link: 'https://github.com/OpenIrelandNetwork'
-  - title: youtube
-    icon: ti-youtube
+  - title: YouTube
+    icon: fab fa-youtube
     link: 'https://www.youtube.com/@openirelandnetwork1222'
-  - title: linkedin
-    icon: ti-linkedin
+  - title: LinkedIn
+    icon: fab fa-linkedin
     link: 'https://www.linkedin.com/company/open-ireland-network/'
