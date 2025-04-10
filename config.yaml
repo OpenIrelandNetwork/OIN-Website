@@ -47,11 +47,9 @@ menu:
       URL: events
       weight: 2
       post: bold
-      pre: _blank
-      post: bold
     - name: Resources
       URL: resources
-      weight: 2
+      weight: 3
       post: bold
   footer_right:
     - name: About
@@ -129,16 +127,6 @@ params:
   copyright: >-
     Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
     icons by [Freepik Storyset](https://storyset.com/people)
-  preloader:
-    enable: false
-    preloader: ''
-  navigation_button:
-    enable: true
-    label: Join Slack
-    link: slack
-taxonomies:
-  tag: "tags"
-  category: "categories"
 social:
   - title: GitHub
     icon: fab fa-github
@@ -149,3 +137,13 @@ social:
   - title: LinkedIn
     icon: fab fa-linkedin
     link: 'https://www.linkedin.com/company/open-ireland-network/'
+preloader:
+    enable: false
+    preloader: ''
+navigation_button:
+    enable: true
+    label: Join Slack
+    link: slack
+taxonomies:
+  tag: "tags"
+  category: "categories"
