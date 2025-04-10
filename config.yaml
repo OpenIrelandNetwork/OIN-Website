@@ -119,13 +119,13 @@ params:
     icons by [Freepik Storyset](https://storyset.com/people)
 social:
   - title: GitHub
-    icon: fab fa-github
+    icon: fa-brands fa-github
     link: 'https://github.com/OpenIrelandNetwork'
   - title: YouTube
-    icon: fab fa-youtube
+    icon: fa-brands fa-youtube
     link: 'https://www.youtube.com/@openirelandnetwork1222'
   - title: LinkedIn
-    icon: fab fa-linkedin
+    icon: fa-brands fa-linkedin
     link: 'https://www.linkedin.com/company/open-ireland-network/'
 preloader:
     enable: false
