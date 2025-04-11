@@ -1,13 +1,13 @@
 {{ define "main" }}
+  {{ .Content }}
 
-{{ partial "page-header.html" . }}
-<section class="section section-first">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="content">{{.Content}}</div>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- MailerLite Universal -->
+  <script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1441737');
+  </script>
+  <!-- End MailerLite Universal -->
 {{ end }}
