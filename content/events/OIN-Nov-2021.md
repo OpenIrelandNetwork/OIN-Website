@@ -2,7 +2,7 @@
 title: Open Source in Government – November 2021
 type: redirects
 redirect: "https://youtu.be/2VK31Ms1BZg"
-image: "/images/events/OIN-11-11-2021.png"
+image: "OIN-Website/images/events/OIN-11-11-2021.png"
 date: 2021-11-11
 publishDate: 2021-11-11
 ---
